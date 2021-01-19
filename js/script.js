@@ -1,0 +1,1 @@
+(t=>{let e=!0;const n=t.querySelector("#basic"),o=t.querySelector("#profesional"),r=t.querySelector("#master");t.addEventListener("click",t=>{t.target.matches(".slider")&&(console.log(t.target,e),e?(n.textContent="$199.99",o.textContent="$249.99",r.textContent="$399.99",e=!1):(n.textContent="$19.99",o.textContent="$24.99",r.textContent="$39.99",e=!0))})})(document);
